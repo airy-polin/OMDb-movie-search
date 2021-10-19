@@ -1,0 +1,69 @@
+.fluid-container {
+	margin: 100px;
+	display: flex;
+}
+
+.bot {
+	padding-left: 50px;
+}
+
+h1 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 22px;
+}
+h4,
+p {
+	font-size: 18px;
+}
+
+.space {
+	margin-left: 0px;
+	text-align: center;
+	align-items: center;
+}
+
+.row .center-img {
+	text-align: center;
+	align-items: center;
+}
+
+.containter .plot {
+	width: 75%;
+}
+
+
+/* Adaptives */
+@media (max-width: 970px) {
+	.containter .plot {
+		text-align: center;
+		align-items: center;
+		width: 100%;
+		padding: 0 40px 0 40px;
+	}
+
+	img,
+	.cent {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+
+	.bot {
+		padding-left: 0px;
+		padding-bottom: 50px;
+		text-align: center;
+	}
+
+	.fluid-container {
+		margin: 10px;
+	}
+
+	.start {
+		padding-left: 0;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+}

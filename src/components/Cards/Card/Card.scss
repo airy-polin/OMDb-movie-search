@@ -1,0 +1,10 @@
+.zoom {
+	transition: all 0.2s ease-in-out;
+}
+.zoom:hover {
+	transform: scale(1.1);
+}
+
+h5 {
+	font-family: 'Roboto', sans-serif;
+}
